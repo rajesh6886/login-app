@@ -1,0 +1,47 @@
+# - Comment
+# - Define key values
+name: raj
+place: hyderabad
+zip: 50079
+   
+#  Dictionary
+Persons:
+  name: raj
+  place: hyd
+   zip: 50079
+
+
+ # Not a  Dictionary
+Persons:
+name: raj
+place: hyd
+zip: 50079
+ 
+
+# Array / list
+Persons: # dictionary
+  name: raj
+  place: hyd
+   zip: 50079
+  activities: #list
+    - code
+    - test
+    - deploy
+
+# mutiple list
+Persons: #  Dictionary
+  name: raj
+  place: hyd
+   zip: 50079
+  activities: #List
+    - code
+    - test
+    - deploy
+  collabtors:
+    name: mahi
+    place: hyd
+    name: yesh
+    place: pune
+
+
+
