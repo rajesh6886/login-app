@@ -3,15 +3,17 @@
 kind: ReplicaSet
 metadata:
   name: nginx
+  labels:
+  tier: web
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      tier: web
   template:
     metadata:
       labels:
-        app: nginx
+        tier: web
     spec:
       containers:
       - name: nginx
