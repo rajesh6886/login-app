@@ -1,10 +1,10 @@
 # Top four items
-    apiVersion: apps/v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: nginx
   labels:
-  tier: web
+    tier: web
 spec:
   replicas: 1
   selector:
@@ -20,8 +20,6 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
-
-
 
 
 
